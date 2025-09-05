@@ -11,7 +11,7 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
 - Python 3.7+
 - AWS credentials configured (`~/.aws/credentials` or environment variables).
 - Minimum IAM permissions(Your IAM user/role needs permissions for:)
-            ```json
+  ```json
           {
             "Version": "2012-10-17",
             "Statement": [
