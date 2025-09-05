@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# aws-ami-fetcher
-=======
 # AWS AMI Fetcher
 
 A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions and save them into a CSV file.
