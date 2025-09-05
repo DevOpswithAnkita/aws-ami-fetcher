@@ -26,4 +26,4 @@ with open("amis.csv", "w", newline="") as f:
     writer.writerow(["Region", "Owner", "ImageId", "Name", "CreationDate"])
     writer.writerows(all_amis)
 
-print("Saved amis.csv ✅")
+print("Saved amis.csv")
