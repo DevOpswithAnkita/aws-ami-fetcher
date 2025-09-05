@@ -34,3 +34,13 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
   ```bash
   pip install boto3 pyyaml
 >>>>>>> b53d982 (Initial commit: AWS AMI Fetcher script)
+
+## References
+
+- **Ubuntu (Canonical)**: [cloud-images.ubuntu.com](https://cloud-images.ubuntu.com/locator/ec2/) – Official Ubuntu AMI locator.
+- **Amazon Linux 2**: [AWS Blog](https://aws.amazon.com/blogs/compute/query-for-the-latest-amazon-linux-ami-ids-using-aws-systems-manager-parameter-store/) – How to query the latest Amazon Linux AMIs using Systems Manager Parameter Store.
+- **Red Hat Enterprise Linux (RHEL)**: [EC2 Console](https://console.aws.amazon.com/ec2/) – Search for RHEL AMIs with owner alias `309956199498`.
+- **SUSE Linux Enterprise Server (SLES)**: [EC2 Console](https://console.aws.amazon.com/ec2/) – Search for SLES AMIs with owner alias `013907871322`.
+- **Debian**: [EC2 Console](https://console.aws.amazon.com/ec2/) – Search for Debian AMIs with owner alias `136693071363`.
+- **Microsoft Windows Server**: [EC2 Console](https://console.aws.amazon.com/ec2/) – Search for Windows Server AMIs with owner alias `801119661308`.
+
