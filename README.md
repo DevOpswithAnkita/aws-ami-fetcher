@@ -10,6 +10,10 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
 ## Requirements
 - Python 3.7+
 - AWS credentials configured (`~/.aws/credentials` or environment variables).
+  ```
+  export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY
+  export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
+  export AWS_DEFAULT_REGION=us-east-1
 - Minimum IAM permissions(Your IAM user/role needs permissions for:)
   ```json
           {
@@ -33,6 +37,7 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
 - Install dependencies:
   ```bash
   pip install boto3 pyyaml
+  python3.10 fetch_amis.py
 >>>>>>> 
 
 ## References
