@@ -33,7 +33,7 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
 - Install dependencies:
   ```bash
   pip install boto3 pyyaml
->>>>>>> b53d982 (Initial commit: AWS AMI Fetcher script)
+>>>>>>> 
 
 ## References
 
