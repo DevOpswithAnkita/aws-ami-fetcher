@@ -7,7 +7,7 @@ A simple Python tool to fetch AMI (Amazon Machine Image) IDs across AWS regions 
 - `fetch_amis.py` → Main script.
 - `config.yaml` → Configuration for owners (publishers) and AWS regions.
 - `amis.csv` → Output file (generated after running the script).
-- app.py → Web application to view AMIs in browse
+- `app.py` → Web application to view AMIs in browse
 
 ## Requirements
 
