@@ -72,7 +72,7 @@ owners:
 
   ```
 
-![AWS AMI Table Screenshot](screenshots/AWS-AMI-Fetcher.png)
+![AWS AMI Table Screenshot](AWS-AMI-Fetcher.png)
 
 ## References
 
