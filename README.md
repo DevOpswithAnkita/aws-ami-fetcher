@@ -44,33 +44,33 @@ A simple Python application that retrieves AMI (Amazon Machine Image) IDs from A
 
 - Clone the repository:
 
-```bash
-git clone https://github.com/DevOpswithAnkita/aws-ami-fetcher.git
-cd aws-ami-fetcher
-```
+    ```bash
+      git clone https://github.com/DevOpswithAnkita/aws-ami-fetcher.git
+      cd aws-ami-fetcher
+    ```
 
 - Configure `config.yaml` for AWS regions and AMI owners. Only the required OS/Owner-id are included here.
-
-```bash
-regions:
-  - us-east-1
-  - us-west-2
-owners:
-  ubuntu: "099720109477"   # Canonical (Ubuntu) owner ID
-```
+    
+    ```bash
+      regions:
+        - us-east-1
+        - us-west-2
+      owners:
+        ubuntu: "099720109477"   # Canonical (Ubuntu) owner ID
+    ```
 
 - How to run repo using cli:
-  ```bash
-  #Install required packages:
-  pip install -r requirements.txt
-  #Fetch AMIs and generate amis.csv:
-  python3.10 fetch_amis.py
-  #Start the web application to view AMIs in browser:
-  python3.10 app.py
-  - Open your browser at:
-  Running on http://127.0.0.1:8000
-
-  ```
+    ```bash
+      #Install required packages:
+      pip install -r requirements.txt
+      #Fetch AMIs and generate amis.csv:
+      python3.10 fetch_amis.py
+      #Start the web application to view AMIs in browser:
+      python3.10 app.py
+    ```
+- Open your browser at:
+      `Running on http://127.0.0.1:8000`
+   
 
 ![AWS AMI Table Screenshot](AWS-AMI-Fetcher.png)
 
